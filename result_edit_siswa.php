@@ -7,6 +7,8 @@
 //        print_r($_FILES);
 //        echo '</pre>';
         
+        //ini perubahan
+        
         $data_foto = '';
         if($_FILES['in_foto']['error'] == 0){
             if(!copy($_FILES['in_foto']['tmp_name'], 'img/'.$_POST['in_nis'].'.png')){
