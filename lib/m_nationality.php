@@ -1,0 +1,17 @@
+<?php
+	class Nationality{
+		private $db;
+
+		public function Nationality(){
+			$this->db = new DBClass;
+		}
+		
+		public function readAllNationality(){
+			$query = "SELECT * 
+			FROM nationality";
+
+			return $this->db->getRows($query);
+		}
+	}
+
+?>
