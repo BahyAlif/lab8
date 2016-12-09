@@ -1,7 +1,7 @@
 <?php
 
-//Nama: Dedi styawam
-//NIM: 14.11.7933
+//Nama: Muhamad Bahy alif 
+//NIM: 14.11.7984
 	require_once ('lib/DBClass.php');
 	require_once('lib/m_siswa.php');
 	require_once('lib/age.php');
